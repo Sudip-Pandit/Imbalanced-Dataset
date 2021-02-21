@@ -9,8 +9,7 @@ The credit card fraud detection is one example of that imbalanced dataset. The c
 # Problem statement
 
 
-The imbalanced dataset is challenging  for the machine learning model. We develop baseline model at first and then different successive machine learning models. We expect successive machine learning model's accuracies and classification metrics should have some distinct results (metrices should have good results than the baseline model). But, due to the heavily imbalanced dataset, the machine learning model predicts good results on class having large number of datasets than class having less number of dataset.  Thus, it is very important to balance the dataset before proceeding  machine learning model. This project finds the best way to balance the imbalanced dataset.
-What is the technique to balance the imbalanced dataset? what are the different methods to deal with imbalanced dataset? How do we know the imbalanced dataset?
+The imbalanced dataset is challenging  for the machine learning model. We develop baseline model at first and then different successive machine learning models. We expect that successive machine learning model's accuracies and classification metrics should have some distinct results (metrices should have good result than the baseline model). But, due to the heavily imbalanced dataset, the machine learning model predicts good results on class having large number of datasets than class having less number of dataset.  Thus, it is very important to balance the dataset before proceeding  machine learning model. This project finds the best way to balance the imbalanced dataset. What is the technique to balance the imbalanced dataset? what are the different methods to deal with imbalanced dataset? How do we know the imbalanced dataset?
 
 
 # Problem analysis
@@ -19,11 +18,11 @@ What is the technique to balance the imbalanced dataset? what are the different 
 + We have different techniques to balance the dataset such as upsampling (random over-sampling) the small number of dataset, dowmsampling (random under-sampling) of large number of dataset and make balance. The smote technique is very popular in balancing the imbalanced dataset. 
 + The following are the steps used in smote technique:
 
-      + First we identify the feature vector and its nearest neighbour
-      + The next step is to take the difference between two feature vectors
-      + The difference should multipy with a random number between 0 and 1
-      + Find a new point on the line between the two vectors and adding the random number to feature vector
-      + The process should repeat on the others feature vectors
+     + First we identify the feature vector and its nearest neighbour
+     + The next step is to take the difference between two feature vectors
+     + The difference should multipy with a random number between 0 and 1
+     + Find a new point on the line between the two vectors and adding the random number to feature vector
+     + The process should repeat on the others feature vectors
       + Finally, create new "synthetic" observations
 
 
