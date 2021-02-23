@@ -23,7 +23,7 @@ The imbalanced dataset is challenging  for the machine learning model. We develo
      + The difference should multipy with a random number between 0 and 1
      + Find a new point on the line between the two vectors and adding the random number to feature vector
      + The process should repeat on the others feature vectors
-      + Finally, create new "synthetic" observations
+     + Finally, create new "synthetic" observations
 
 
 
